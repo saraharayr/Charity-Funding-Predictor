@@ -6,27 +6,27 @@ The non-profit foundation Alphabet Soup wants to create an algorithm to predict 
 From Alphabet Soup’s business team, you have received a CSV containing more than 34,000 organizations that have received funding from Alphabet Soup over the years. Within this dataset are a number of columns that capture metadata about each organization, such as the following:
 
 
--EIN and NAME—Identification columns
+- EIN and NAME—Identification columns
 
--APPLICATION_TYPE—Alphabet Soup application type
+- APPLICATION_TYPE—Alphabet Soup application type
 
--AFFILIATION—Affiliated sector of industry
+- AFFILIATION—Affiliated sector of industry
 
--CLASSIFICATION—Government organization classification
+- CLASSIFICATION—Government organization classification
 
--USE_CASE—Use case for funding
+- USE_CASE—Use case for funding
 
--ORGANIZATION—Organization type
+- ORGANIZATION—Organization type
 
--STATUS—Active status
+- STATUS—Active status
 
--INCOME_AMT—Income classification
+- INCOME_AMT—Income classification
 
--SPECIAL_CONSIDERATIONS—Special consideration for application
+- SPECIAL_CONSIDERATIONS—Special consideration for application
 
--ASK_AMT—Funding amount requested
+- ASK_AMT—Funding amount requested
 
--IS_SUCCESSFUL—Was the money used effectively
+- IS_SUCCESSFUL—Was the money used effectively
 
 # Instructions 
 
@@ -87,16 +87,14 @@ Write a report on the performance of the deep learning model I created for Alpha
 
 The report contains the following:
 
-Overview of the analysis: Explain the purpose of this analysis.
-
-Results: Using bulleted lists and images to support my answers, address the following questions.
-
-Data Preprocessing
-What variable(s) are considered the target(s) for my model?
-What variable(s) are considered to be the features for my model?
-What variable(s) are neither targets nor features, and should be removed from the input data?
-Compiling, Training, and Evaluating the Model
-How many neurons, layers, and activation functions I selected for your neural network model, and why?
-Were I able to achieve the target model performance?
-What steps did I take to try and increase model performance?
-Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain my recommendations.
+ 1. Overview of the analysis: Explain the purpose of this analysis.
+ 2. Results: Using bulleted lists and images to support my answers, address the following questions.
+  * Data Preprocessing
+    * What variable(s) are considered the target(s) for my model?
+    * What variable(s) are considered to be the features for my model?
+    * What variable(s) are neither targets nor features, and should be removed from the input data?
+  * Compiling, Training, and Evaluating the Model
+    * How many neurons, layers, and activation functions I selected for your neural network model, and why?
+    * Were I able to achieve the target model performance?
+    * What steps did I take to try and increase model performance?
+  3. Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification      problem, and explain my recommendations.
